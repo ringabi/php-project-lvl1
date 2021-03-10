@@ -1,0 +1,14 @@
+{
+    "name": "hexlet/code",
+    "type": "n",
+    "authors": [
+        {
+            "name": "Rinat Gabidullin",
+            "email": "gabidullin_rg@mail.ru"
+        }
+    ],
+    "bin": [
+        "bin/brain-games"
+    ],
+    "require": {}
+}
