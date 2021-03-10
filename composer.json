@@ -1,14 +1,14 @@
 {
     "name": "hexlet/code",
-    "type": "n",
+    "type": "project",
     "authors": [
         {
             "name": "Rinat Gabidullin",
             "email": "gabidullin_rg@mail.ru"
         }
     ],
-    "bin": [
-        "bin/brain-games"
-    ],
+    "bin": ["bin/brain-games"],
+    "description": "arithmetic games",
+    "license": "MIT",
     "require": {}
 }
