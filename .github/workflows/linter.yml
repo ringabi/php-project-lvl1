@@ -14,5 +14,8 @@ jobs:
           php-version: '7.4'
       - name: Install
         run: make install
+        env:
+          CI: true
       - name: Run linter
-        run: make lint
+        run: |
+          make lint

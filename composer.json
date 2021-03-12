@@ -1,7 +1,10 @@
 {
     "name": "hexlet/code",
     "autoload": {
-        "files": ["src/Cli.php"]
+        "files": [
+	    "src/Cli.php",
+	    "src/Games/BrainEvenGame.php"
+	]
     },
     "type": "project",
     "authors": [
@@ -10,7 +13,10 @@
             "email": "gabidullin_rg@mail.ru"
         }
     ],
-    "bin": ["bin/brain-games"],
+    "bin": [
+	    "bin/brain-games",
+            "bin/brain-even"
+    ],
     "description": "arithmetic games",
     "license": "MIT",
     "require": {
