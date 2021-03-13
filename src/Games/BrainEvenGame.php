@@ -4,10 +4,6 @@ namespace Php\Project\Lvl1\Games\BrainEvenGame;
 
 use function Php\Project\Lvl1\Cli\runEngine;
 
-//$attemptsCount = 3;
-
-//$task = 'Answer "yes" if the number is even, otherwise answer "no".';
-
 function isEven($number)
 {
     return $number % 2 === 0;

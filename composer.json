@@ -3,6 +3,7 @@
     "autoload": {
         "files": [
 	    "src/Cli.php",
+	    "src/Games/BrainCalcGame.php",
 	    "src/Games/BrainEvenGame.php"
 	]
     },
@@ -15,6 +16,7 @@
     ],
     "bin": [
 	    "bin/brain-games",
+	    "bin/brain-calc",
             "bin/brain-even"
     ],
     "description": "arithmetic games",
