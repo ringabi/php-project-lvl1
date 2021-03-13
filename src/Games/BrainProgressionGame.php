@@ -2,7 +2,7 @@
 
 namespace Php\Project\Lvl1\Games\BrainProgressionGame;
 
-use function Php\Project\Lvl1\Cli\runEngine;
+use function Php\Project\Lvl1\Engine\runEngine;
 
 function getQuestion($firstNumber, $stepProgression, $indexMissedNumber)
 {

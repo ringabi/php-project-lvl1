@@ -2,7 +2,7 @@
 
 namespace Php\Project\Lvl1\Games\BrainGcdGame;
 
-use function Php\Project\Lvl1\Cli\runEngine;
+use function Php\Project\Lvl1\Engine\runEngine;
 
 function getGcd($number1, $number2)
 {

@@ -2,10 +2,11 @@
     "name": "hexlet/code",
     "autoload": {
         "files": [
-	    "src/Cli.php",
+	    "src/Engine.php",
 	    "src/Games/BrainCalcGame.php",
 	    "src/Games/BrainEvenGame.php",
 	    "src/Games/BrainGcdGame.php",
+	    "src/Games/BrainPrimeGame.php",
 	    "src/Games/BrainProgressionGame.php"
 	]
     },
@@ -17,10 +18,10 @@
         }
     ],
     "bin": [
-	    "bin/brain-games",
 	    "bin/brain-calc",
             "bin/brain-even",
 	    "bin/brain-gcd",
+	    "bin/brain-prime",
 	    "bin/brain-progression"
     ],
     "description": "arithmetic games",

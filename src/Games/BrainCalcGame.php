@@ -2,7 +2,7 @@
 
 namespace Php\Project\Lvl1\Games\BrainCalcGame;
 
-use function Php\Project\Lvl1\Cli\runEngine;
+use function Php\Project\Lvl1\Engine\runEngine;
 
 function calculate($number1, $number2, $operator)
 {
