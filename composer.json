@@ -4,7 +4,9 @@
         "files": [
 	    "src/Cli.php",
 	    "src/Games/BrainCalcGame.php",
-	    "src/Games/BrainEvenGame.php"
+	    "src/Games/BrainEvenGame.php",
+	    "src/Games/BrainGcdGame.php",
+	    "src/Games/BrainProgressionGame.php"
 	]
     },
     "type": "project",
@@ -17,7 +19,9 @@
     "bin": [
 	    "bin/brain-games",
 	    "bin/brain-calc",
-            "bin/brain-even"
+            "bin/brain-even",
+	    "bin/brain-gcd",
+	    "bin/brain-progression"
     ],
     "description": "arithmetic games",
     "license": "MIT",
