@@ -13,6 +13,8 @@ function calculate(int $number1, int $number2, string $operator): int
             return $number1 - $number2;
         case '*':
             return $number1 * $number2;
+        default:
+            return 1;
     }
 }
 
