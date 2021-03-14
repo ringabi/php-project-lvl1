@@ -4,12 +4,12 @@ namespace Brain\Games\Games\BrainEvenGame;
 
 use function Brain\Games\Engine\runEngine;
 
-function isEven($number)
+function isEven(int $number): bool
 {
     return $number % 2 === 0;
 }
 
-function runGame()
+function runGame(): string
 {
     $attemptsCount = 3;
     $task = "Answer \"yes\" if the number is even, otherwise answer \"no\".\n";

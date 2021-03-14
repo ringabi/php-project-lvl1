@@ -4,7 +4,7 @@ namespace Brain\Games\Games\BrainPrimeGame;
 
 use function Brain\Games\Engine\runEngine;
 
-function isPrime($number)
+function isPrime(int $number): bool
 {
     if ($number < 2) {
         return false;
@@ -17,7 +17,7 @@ function isPrime($number)
     return true;
 }
 
-function runGame()
+function runGame(): string
 {
         $task = "Answer \"yes\" if given number is prime. Otherwise answer \"no\".\n";
         $attemptsCount = 3;

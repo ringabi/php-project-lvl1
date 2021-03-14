@@ -4,7 +4,7 @@ namespace Brain\Games\Games\BrainProgressionGame;
 
 use function Brain\Games\Engine\runEngine;
 
-function getQuestion($firstNumber, $stepProgression, $indexMissedNumber)
+function getQuestion(int $firstNumber, int $stepProgression, int $indexMissedNumber): string
 {
         $progression = [];
         $progressionLength = 10;
@@ -18,7 +18,7 @@ function getQuestion($firstNumber, $stepProgression, $indexMissedNumber)
         return implode(' ', $progression);
 }
 
-function runGame()
+function runGame(): string
 {
         $task = "What number is missing in the progression?\n";
         $attemptsCount = 3;

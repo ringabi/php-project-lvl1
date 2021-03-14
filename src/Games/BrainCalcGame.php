@@ -4,7 +4,7 @@ namespace Brain\Games\Games\BrainCalcGame;
 
 use function Brain\Games\Engine\runEngine;
 
-function calculate($number1, $number2, $operator)
+function calculate(int $number1, int $number2, string $operator): int
 {
     switch ($operator) {
         case '+':
@@ -16,7 +16,7 @@ function calculate($number1, $number2, $operator)
     }
 }
 
-function runGame()
+function runGame(): string
 {
         $task = "What is the result of the expression?\n";
         $operators = ['+', '-', '*'];
