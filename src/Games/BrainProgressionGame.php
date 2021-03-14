@@ -18,7 +18,7 @@ function getQuestion(int $firstNumber, int $stepProgression, int $indexMissedNum
         return implode(' ', $progression);
 }
 
-function runGame()
+function runGame(): void
 {
         $task = "What number is missing in the progression?\n";
         $attemptsCount = 3;

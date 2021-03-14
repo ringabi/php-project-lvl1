@@ -17,7 +17,7 @@ function getGcd(int $number1, int $number2): int
     return $divisor;
 }
 
-function runGame()
+function runGame(): void
 {
     $task = "Find the greatest common divisor of given numbers.\n";
     $attemptsCount = 3;

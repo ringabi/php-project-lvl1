@@ -16,7 +16,7 @@ function calculate(int $number1, int $number2, string $operator): int
     }
 }
 
-function runGame()
+function runGame(): void
 {
         $task = "What is the result of the expression?\n";
         $operators = ['+', '-', '*'];

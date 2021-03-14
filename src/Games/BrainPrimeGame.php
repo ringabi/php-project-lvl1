@@ -17,7 +17,7 @@ function isPrime(int $number): bool
     return true;
 }
 
-function runGame()
+function runGame(): void
 {
         $task = "Answer \"yes\" if given number is prime. Otherwise answer \"no\".\n";
         $attemptsCount = 3;
