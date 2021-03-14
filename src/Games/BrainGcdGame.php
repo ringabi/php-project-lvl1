@@ -1,8 +1,8 @@
 <?php
 
-namespace Php\Project\Lvl1\Games\BrainGcdGame;
+namespace Brain\Games\Games\BrainGcdGame;
 
-use function Php\Project\Lvl1\Engine\runEngine;
+use function Brain\Games\Engine\runEngine;
 
 function getGcd($number1, $number2)
 {

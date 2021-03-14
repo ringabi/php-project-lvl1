@@ -1,8 +1,8 @@
 <?php
 
-namespace Php\Project\Lvl1\Games\BrainProgressionGame;
+namespace Brain\Games\Games\BrainProgressionGame;
 
-use function Php\Project\Lvl1\Engine\runEngine;
+use function Brain\Games\Engine\runEngine;
 
 function getQuestion($firstNumber, $stepProgression, $indexMissedNumber)
 {

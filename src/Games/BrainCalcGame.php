@@ -1,8 +1,8 @@
 <?php
 
-namespace Php\Project\Lvl1\Games\BrainCalcGame;
+namespace Brain\Games\Games\BrainCalcGame;
 
-use function Php\Project\Lvl1\Engine\runEngine;
+use function Brain\Games\Engine\runEngine;
 
 function calculate($number1, $number2, $operator)
 {
@@ -13,8 +13,6 @@ function calculate($number1, $number2, $operator)
             return $number1 - $number2;
         case '*':
             return $number1 * $number2;
-        default:
-            throw new Error("Unknown operator: $operator!");
     }
 }
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Php\Project\Lvl1\Games\BrainPrimeGame;
+namespace Brain\Games\Games\BrainPrimeGame;
 
-use function Php\Project\Lvl1\Engine\runEngine;
+use function Brain\Games\Engine\runEngine;
 
 function isPrime($number)
 {
