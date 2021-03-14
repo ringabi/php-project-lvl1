@@ -8,7 +8,7 @@ use function cli\prompt;
 function runEngine(array $gameData, string $task)
 {
     line('Welcome to the Brain Games!');
-    $userName = prompt('May I have your name?', null, ' ');
+    $userName = prompt('May I have your name?', '', ' ');
     line("Hello, %s!", $userName);
     print_r($task);
     foreach ($gameData as [$question, $answer]) {

@@ -9,7 +9,7 @@ function isEven(int $number): bool
     return $number % 2 === 0;
 }
 
-function runGame(): string
+function runGame()
 {
     $attemptsCount = 3;
     $task = "Answer \"yes\" if the number is even, otherwise answer \"no\".\n";
